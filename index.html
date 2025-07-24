@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | PHP Developer</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/custom.css">
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+    }
+    .neon-text, .neon-heading, .text-neon, .btn-outline-neon {
+      color: #0ff;
+      text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+    }
+    .btn-outline-neon {
+      border-color: #0ff;
+    }
+    .btn-outline-neon:hover {
+      background-color: #0ff;
+      color: #000;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body class="bg-dark text-light">
+
+  <header class="text-center py-5 border-bottom border-secondary">
+    <h1 class="neon-text">Your Name</h1>
+    <p class="lead">PHP Developer | Laravel & CodeIgniter Specialist</p>
+  </header>
+
+  <section class="container py-5" id="about">
+    <h2 class="neon-heading">About Me</h2>
+    <p>
+      I’m a passionate PHP developer with over 2 years of experience building web applications using Laravel and CodeIgniter. I specialize in integrating third-party APIs, optimizing MySQL queries, and managing projects on GitHub. I write clean, scalable code and focus on performance optimization. I also have solid knowledge of Version Control Systems (Git, GitHub).
+    </p>
+  </section>
+
+  <section class="container py-5" id="skills">
+    <h2 class="neon-heading">Skills</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <ul>
+          <li>PHP (Laravel, CodeIgniter)</li>
+          <li>MySQL, RESTful APIs</li>
+          <li>JavaScript, jQuery</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul>
+          <li>HTML5 & CSS3</li>
+          <li>Bootstrap & Responsive Design</li>
+          <li>Git, GitHub, Version Control Systems</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="container py-5" id="experience">
+    <h2 class="neon-heading">Work Experience</h2>
+    <div class="row gy-4">
+      <div class="col-md-4 text-center">
+        <img src="images/ubicos-logo.png" alt="Ubicos Pvt Ltd" class="img-fluid mb-2" style="max-height: 100px;">
+        <h5>Ubicos Pvt Ltd</h5>
+        <p>PHP Developer (6 months)</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="images/miotweb-logo.png" alt="Miotweb Pvt Ltd" class="img-fluid mb-2" style="max-height: 100px;">
+        <h5>Miotweb Pvt Ltd</h5>
+        <p>Web Developer (10 months)</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="images/synkrama-logo.png" alt="Synkrama Pvt Ltd" class="img-fluid mb-2" style="max-height: 100px;">
+        <h5>Synkrama Pvt Ltd</h5>
+        <p>PHP Developer (Current)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container py-5" id="projects">
+    <h2 class="neon-heading">Projects</h2>
+    <div class="row g-4">
+      <!-- Parking Management System -->
+        <div class="col-md-6">
+        <div class="card bg-gradient border border-light text-dark">
+            <img src="images/inventory-system.jpg" class="card-img-top" alt="Inventory System">
+            <div class="card-body">
+            <h5 class="card-title text-neon">QR-Based Parking Management System</h5>
+            <p class="card-text">
+                Developed a smart parking system using Laravel where users scan unique QR codes for entry and exit. It tracks vehicle details, manages available slots, and automates billing — streamlining parking operations for businesses.
+            </p>
+            </div>
+        </div>
+        </div>
+
+        <!-- Employee Management System (Ubicos) -->
+        <div class="col-md-6">
+        <div class="card bg-gradient border border-light text-dark">
+            <div class="card-body">
+            <h5 class="card-title text-neon">Employee Management System</h5>
+            <p class="card-text">
+                Designed and built a PHP-based internal tool for Ubicos Pvt Ltd to manage employee profiles, departments, and attendance. It also included leave tracking, daily logs, and basic HR reporting.
+            </p>
+            </div>
+        </div>
+        </div>
+
+        <!-- School Teacher & Student Management -->
+        <div class="col-md-6">
+        <div class="card bg-gradient border border-light text-dark">
+            <div class="card-body">
+            <h5 class="card-title text-neon">School Management System</h5>
+            <p class="card-text">
+                Created a full-featured platform to manage student and teacher data, class allocations, and academic records. Automated attendance reports and calculated teacher salaries based on daily presence and workload.
+            </p>
+            </div>
+        </div>
+        </div>
+
+        <!-- In-House Instagram-Like Android App -->
+        <div class="col-md-6">
+        <div class="card bg-gradient border border-light text-dark">
+            <div class="card-body">
+            <h5 class="card-title text-neon">Internal Social App (Android)</h5>
+            <p class="card-text">
+                Contributed to an in-house Android app inspired by Instagram, allowing employees to share updates, images, and connect with teams. Integrated timeline feeds, user authentication, likes, and profile features.
+            </p>
+            <p class="text-muted"><em>Note: This project was internal and not publicly released.</em></p>
+            </div>
+        </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="container py-5" id="contact">
+    <h2 class="neon-heading">Contact</h2>
+    <p>Email: <a href="mailto:you@example.com" class="text-neon">you@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank" class="text-neon">github.com/yourusername</a></p>
+  </section>
+
+  <footer class="text-center py-4 border-top border-secondary">
+    <p>© 2025 Your Name</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
